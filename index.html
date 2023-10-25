@@ -1,35 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>COBA COBA</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 32px;
-        }
-        p {
-            font-size: 18px;
-            margin: 20px;
-        }
-    </style>
+    <title>Namaewa</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap-grid.min.css">
 </head>
 <body>
-    <header>
-        <h1>Hello World!</h1>
+    <header class="bg-primary text-white text-center py-4">
+        <h1 class="display-4">Profil Mahasiswa</h1>
     </header>
-    <div>
-        <p>Aku bersyukur bisa bangun hari ini.<a href="index.php">Klik di sini</a> untuk pergi ke halaman PHP</p>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="profile-block bg-info p-4 rounded">
+                    <img src="gambar_profil.jpg" alt="Foto Profil" class="img-fluid rounded-circle" style="max-width: 200px;">
+                    <h2 class="mt-4">Muhammad Hilmi Nurullah</h2>
+                    <p class="lead">Masih coba-coba</p>
+                    <a class="btn btn-info" href="index.php">Lihat Profil Lain</a>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Tautan ke Bootstrap JavaScript dari sumber eksternal (jQuery dan Popper.js diperlukan) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
